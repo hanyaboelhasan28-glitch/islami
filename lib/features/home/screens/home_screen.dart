@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:islami/core/constants/assets.dart';
 import 'package:islami/core/constants/colors.dart';
+import 'package:islami/features/radio/screens/radio_screen.dart';
 import 'package:islami/features/tasbeeh/screens/tasbeeh_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -19,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
     const Center(child: Text('Quran', style: TextStyle(color: Colors.white, fontSize: 30))),
     const Center(child: Text('Hadith', style: TextStyle(color: Colors.white, fontSize: 30))),
     const TasbeehScreen(),
-    const Center(child: Text('Radio', style: TextStyle(color: Colors.white, fontSize: 30))),
+    const RadioScreen(),
     const Center(child: Text('Time', style: TextStyle(color: Colors.white, fontSize: 30))),
   ];
 

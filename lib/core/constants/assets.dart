@@ -7,6 +7,8 @@ abstract class AppAssets {
   static const String background = '${imagesPath}Background.png';
   static const String sebhaBody = '${imagesPath}SebhaBody 1.png';
   static const String sebhaHead = '${imagesPath}Group 37.png';
+  static const String radioBg = '${imagesPath}Mask group.png'; // Used for radio card background
+  static const String radioPlayerBg = '${imagesPath}Background Image.png'; // Pattern inside radio card
   
   // OnBoarding Images
   static const String onBoarding1Image = '${imagesPath}onBoarding1.png';
