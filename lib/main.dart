@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami/core/cache/cache_helper.dart';
+import 'package:islami/features/home/screens/home_screen.dart';
 import 'package:islami/features/onboarding/screens/on_boarding_screen.dart';
 
 void main() async {
@@ -19,10 +20,10 @@ class IslamiApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: onBoarding ? 'home' : OnBoardingScreen.routeName,
+      initialRoute: onBoarding ? HomeScreen.routeName : OnBoardingScreen.routeName,
       routes: {
         OnBoardingScreen.routeName: (context) => const OnBoardingScreen(),
-        'home': (context) => Scaffold(body: Center(child: Text('Home Screen'))), // Placeholder for Home
+        HomeScreen.routeName: (context) => const HomeScreen(),
       },
     );
   }
