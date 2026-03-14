@@ -69,12 +69,10 @@ class _TasbeehScreenState extends State<TasbeehScreen> {
                       Stack(
                         alignment: Alignment.topCenter,
                         children: [
-                          // Sebha Head (Group 37.png)
                           Image.asset(
                             AppAssets.sebhaHead,
                             height: 100,
                           ),
-                          // Sebha Body (Rotated)
                           Padding(
                             padding: const EdgeInsets.only(top: 75),
                             child: Stack(

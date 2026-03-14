@@ -14,7 +14,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  int _selectedIndex = 2; // Default to Tasbeeh as requested
+  int _selectedIndex = 2; // Default to Tasbeeh
 
   final List<Widget> _screens = [
     const Center(child: Text('Quran', style: TextStyle(color: Colors.white, fontSize: 30))),
@@ -46,11 +46,11 @@ class _HomeScreenState extends State<HomeScreen> {
           fontWeight: FontWeight.bold,
         ),
         items: [
-          _buildBottomNavItem(AppAssets.quranIcon, 'Quran', 0),
-          _buildBottomNavItem(AppAssets.hadithIcon, 'Hadith', 1),
+          _buildBottomNavItem('assets/icons/quran.png', 'Quran', 0),
+          _buildBottomNavItem('assets/icons/hadith.png', 'Hadith', 1),
           _buildBottomNavItem(AppAssets.sebhaIcon, 'Tasbeeh', 2),
           _buildBottomNavItem(AppAssets.radioIcon, 'Radio', 3),
-          _buildBottomNavItem(AppAssets.timeIcon, 'Time', 4),
+          _buildBottomNavItem('assets/icons/time.png', 'Time', 4),
         ],
       ),
     );
