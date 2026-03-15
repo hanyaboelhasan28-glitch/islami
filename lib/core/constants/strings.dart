@@ -1,5 +1,5 @@
 abstract class Strings {
-  static const String zekrHeader = 'ستح اعم زيد الأعلى';
+  static const String zekrHeader = 'سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى';
 
   static const String onBoarding1Title = 'Welcome To Islami App';
   static const String onBoarding2Title = 'Welcome To Islami';
